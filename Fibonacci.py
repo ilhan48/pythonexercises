@@ -1,6 +1,6 @@
 print("""
 ********************
-FIBONACCI CALCULATOR 
+FİBONACCI CALCULATOR 
 ********************""")
 
 a = 1
