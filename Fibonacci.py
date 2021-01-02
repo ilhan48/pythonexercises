@@ -1,19 +1,19 @@
 print("""
 ********************
-FACTORIAL CALCULATOR 
+FIBONACCI CALCULATOR 
 ********************""")
 
 a = 1
 b = 1
-factorial = []
+fibonacci = []
 
 while True:
-    factorial.append(a)
-    factorial.append(b)
+    fibonacci.append(a)
+    fibonacci.append(b)
     
     for i in range(20):
         a,b = b,a+b
-        factorial.append(b)
-    print(factorial)     
+        fibonacci.append(b)
+    print(fibonacci)     
     break   
         
